@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-web-development-with-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeisQuietude/Full-Stack-Web-Development-with-React.git"
+  },
+  "author": "Stepan Savelyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeisQuietude/Full-Stack-Web-Development-with-React/issues"
+  },
+  "homepage": "https://github.com/MeisQuietude/Full-Stack-Web-Development-with-React#readme"
+}
