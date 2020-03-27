@@ -33,9 +33,49 @@
                     <li class="nav-item"><a href="./contactus.html" class="nav-link"><span
                                 class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal">
+                        <span class="fa fa-sign-in"> Login</span>
+                    </a>
+                </span>
             </div>
         </div>
     </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label for="exampleEmail" class="sr-only">Email</label>
+                                <input type="email" class="form-control form-control-sm mr-1" name="exampleEmail" id="exampleEmail" class="form-control" placeholde="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label for="examplePassword" class="sr-only">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" name="examplePassword" id="examplePassword" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="exampleCheckbox" id="exampleCheckbox">
+                                    <label for="exampleCheckbox" class="form-check-label"> Remember me</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <header class="jumbotron">
         <div class="container">
